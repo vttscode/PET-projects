@@ -1,0 +1,40 @@
+[
+{
+  "_class" : "com.newbridge.retroboard.dao.entities.AuthRole"
+  "id": 2,
+  "role": "ROLE_USER",
+  "auth_user_id": 1	
+},
+{
+  "_class" : "com.newbridge.retroboard.dao.entities.AuthRole"
+  "id": 4,
+  "role": "ROLE_USER",
+  "auth_user_id": 3	
+},
+{
+  "_class" : 
+  "id": 5,
+  "role": "ROLE_ADMIN",
+  "auth_user_id": 3	
+},
+{
+  "_class" : "com.newbridge.retroboard.dao.entities.AuthUser"
+  "auth_user_id": 1,
+  "is_active" : TRUE,
+  "is_non_locked": TRUE,
+  "name": "NAME1",
+  "note": "USER NOTE",
+  "password": "$2a$10$yOlkiqJuPpJ36deVlWM.NevyONB8VSm9ChQ0JNCt0UQ8/rf9Ba99S",
+  "username": neo@neo.neo
+},
+{
+  "_class" : 
+  "auth_user_id": 3,
+  "is_active" : TRUE,
+  "is_non_locked": TRUE,
+  "name": "NAME2",
+  "note": "ADMIN NOTE",
+  "password": "$2a$10$AWRAIkpX6vVKjypHyf97huwUQvAbUTk34yXy.HD4xNeqMC2j4FhvO",
+  "username": jhonny@silver.head
+}
+]
